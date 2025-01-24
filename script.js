@@ -2,6 +2,7 @@ const header = document.querySelector('.header');
 const mobileMenu = document.getElementById('mobile-menu');
 const navbar = document.querySelector('.navbar');
 
+// Add/remove 'scrolled' class on header when scrolling
 window.addEventListener('scroll', () => {
   if (window.scrollY > 50) {
     header.classList.add('scrolled');
@@ -10,6 +11,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+// Toggle navbar and menu icon on click
 mobileMenu.addEventListener('click', () => {
   navbar.classList.toggle('active');
   mobileMenu.classList.toggle('active');
