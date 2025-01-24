@@ -19,7 +19,7 @@ mobileMenu.addEventListener('click', () => {
 const typingText = document.getElementById("typing-text");
 
 // Teks yang ingin ditampilkan
-const text = "Hi, I'm Dede. Welcome to my portfolio!";
+const text = "Selamat datang di website P4 jakarta timur";
 let index = 0;
 
 function typeEffect() {
